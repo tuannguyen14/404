@@ -158,30 +158,33 @@ public class WelcomeScreenActivity extends AppCompatActivity {
                 } catch (Exception e) {
 
                 } finally {
-                    if (!fileUpdate.exists() && !fileUpdate.isDirectory()) {
-                        ReadWriteFileActivity.saveToFile("V" + versionCode, "true", "/Update/");
-                        if (folderBusstop.isDirectory()) {
-                            ReadWriteFileActivity.deleteFile(folderBusstop);
-                        }
-                        buildBusStop();
-                    }
-                    if (!folderBusstop.exists()) {
-                        buildBusStop();
-                    }
-                    if (folderBusstop.exists()) {
-                        for (final File fileEntry : folderBusstop.listFiles()) {
-                            String nameFile = fileEntry.getName();
-                            String addressS = ReadWriteFileActivity.loadFile(WelcomeScreenActivity.this, nameFile, "/BusStop/");
-                            String[] parts = nameFile.split(", ");
-                            String part1 = parts[0];
-                            String part2 = parts[1];
-                            double latitude = Double.parseDouble(part1);
-                            double longitude = Double.parseDouble(part2);
-                            LatLng latLng = new LatLng(latitude, longitude);
-                            BusStopInfomation busStopInfomation = new BusStopInfomation(addressS, latitude, longitude, latLng);
-                            hashMap.put(latitude + ", " + longitude, busStopInfomation);
-                        }
-                    }
+//                    if (!fileUpdate.exists() && !fileUpdate.isDirectory()) {
+//                        ReadWriteFileActivity.saveToFile("V" + versionCode, "true", "/Update/");
+//                        if (folderBusstop.isDirectory()) {
+//                            ReadWriteFileActivity.deleteFile(folderBusstop);
+//                        }
+//                        buildBusStop();
+//                    }
+//                    if (!folderBusstop.exists()) {
+//                        buildBusStop();
+//                    }
+//                    if (folderBusstop.exists()) {
+//                        for (final File fileEntry : folderBusstop.listFiles()) {
+//                            String nameFile = fileEntry.getName();
+//                            String addressS = ReadWriteFileActivity.loadFile(WelcomeScreenActivity.this, nameFile, "/BusStop/");
+//                            String[] parts = nameFile.split(", ");
+//                            String part1 = parts[0];
+//                            String part2 = parts[1];
+//                            double latitude = Double.parseDouble(part1);
+//                            double longitude = Double.parseDouble(part2);
+//                            LatLng latLng = new LatLng(latitude, longitude);
+//                            BusStopInfomation busStopInfomation = new BusStopInfomation(addressS, latitude, longitude, latLng);
+//                            hashMap.put(latitude + ", " + longitude, busStopInfomation);
+//                        }
+//                    }
+
+                    buildBusStop();
+
                     allBusStopInfomation = new AllBusStopInfomation(hashMap);
                     makeInstance();
                     Intent i = new Intent(WelcomeScreenActivity.this,
@@ -213,10 +216,13 @@ public class WelcomeScreenActivity extends AppCompatActivity {
             Double longitude = entry.getValue();
             List<Address> addresses = null;
             try {
-                addresses = geocoder.getFromLocation(latitude, longitude, 1);
+                addresses = geocoder.getFromLocation(latitude, longitude, 1 );
                 Address address = addresses.get(0);
                 String addressS = address.getAddressLine(0);
+                LatLng latLng = new LatLng(latitude, longitude);
                 ReadWriteFileActivity.saveToFile(latitude + ", " + longitude, addressS, "/BusStop/");
+                BusStopInfomation busStopInfomation = new BusStopInfomation(addressS, latitude, longitude, latLng);
+                hashMap.put(latitude + ", " + longitude, busStopInfomation);
             } catch (IOException e) {
                 e.printStackTrace();
             }

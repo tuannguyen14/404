@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:17:1-31:12
@@ -37,33 +37,33 @@ MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-
 MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:17:1-31:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_LOCATION
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:10:5-74
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:10:5-74
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:10:22-71
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:10:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:20:5-66
@@ -73,17 +73,17 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.
 MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:14:5-80
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:14:22-77
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:14:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:15:5-79
 MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:19:5-78
 MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:21:5-78
@@ -93,13 +93,13 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.
 MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:16:5-81
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:16:22-78
 application
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:19:5-66:19
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:19:5-66:19
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:11:5-20
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:25:5-29:19
@@ -157,81 +157,81 @@ MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKT
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:23:9-41
 	android:roundIcon
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:24:9-48
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:24:9-48
 	android:icon
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:26:9-40
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:20:9-32
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:20:9-32
 activity#eiu.example.tuann.bus.WelcomeScreenActivity
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:27:9-36:20
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:screenOrientation
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:29:13-49
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:28:13-50
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:28:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:34:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:45:9-47:55
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:45:9-47:55
 	android:value
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:47:13-52
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:47:13-52
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:46:13-58
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:46:13-58
 activity#eiu.example.tuann.bus.MainActivity
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:49:9-52:59
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:49:9-52:59
 	android:screenOrientation
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:51:13-49
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:50:13-41
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:50:13-41
 activity#eiu.example.tuann.bus.NearbyBusStopActivity
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:53:9-57:59
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:53:9-57:59
 	android:screenOrientation
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:56:13-49
 	android:label
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:55:13-67
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:55:13-67
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:57:13-56
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:54:13-50
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:54:13-50
 activity#eiu.example.tuann.bus.ReportActivity
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:58:9-61:59
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:58:9-61:59
 	android:label
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:60:13-58
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:60:13-58
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:59:13-43
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:59:13-43
 activity#eiu.example.tuann.bus.InformationMarkerActivity
-ADDED from E:\Bus\app\src\main\AndroidManifest.xml:62:9-65:59
+ADDED from E:\404\404\app\src\main\AndroidManifest.xml:62:9-65:59
 	android:label
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:64:13-70
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:64:13-70
 	android:theme
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:65:13-56
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:63:13-54
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml:63:13-54
 uses-sdk
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:7:5-9:41
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:21:5-23:62
@@ -298,18 +298,18 @@ MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKT
 MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:21:5-23:58
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
-		ADDED from E:\Bus\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
+		ADDED from E:\404\404\app\src\main\AndroidManifest.xml
+		INJECTED from E:\404\404\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:26:9-28:38

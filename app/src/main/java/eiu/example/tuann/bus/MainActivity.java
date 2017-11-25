@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -70,6 +71,7 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -162,6 +164,7 @@ public class MainActivity extends AppCompatActivity
 
     private ProgressDialog progressDialog;
 
+    private HashMap<String, Location> oldLocation = new HashMap<>();
     private double oldlat = 0;
     private double oldlong = 0;
 
@@ -193,6 +196,8 @@ public class MainActivity extends AppCompatActivity
     public static Polyline green = null;
     public static Polyline yello = null;
     public static Polyline pink = null;
+
+    private Polyline emulatorPolyline = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -263,7 +268,10 @@ public class MainActivity extends AppCompatActivity
                         iteratorName.next();
                         String name = (((String) ((DataSnapshot) iteratorName.next()).getValue()));
                         iteratorName.next();
-
+                        Location prevLoc = new Location("preLocation");
+                        prevLoc.setLatitude(oldlat);
+                        prevLoc.setLongitude(oldlong);
+                        oldLocation.put(dataSnapshot.getKey(), prevLoc);
                         Geocoder geocoder;
                         List<Address> addresses = null;
                         geocoder = new Geocoder(MainActivity.this, Locale.getDefault());
@@ -299,9 +307,7 @@ public class MainActivity extends AppCompatActivity
 
                         LatLng latLng = new LatLng(latitude, longitude);
 
-                        Location prevLoc = new Location("preLocation");
-                        prevLoc.setLatitude(oldlat);
-                        prevLoc.setLongitude(oldlong);
+                        Location prevLoc = oldLocation.get(dataSnapshot.getKey());
                         Location newLoc = new Location("newLocation");
                         newLoc.setLatitude(latitude);
                         newLoc.setLongitude(longitude);
@@ -310,8 +316,7 @@ public class MainActivity extends AppCompatActivity
                         Marker markerName = mMap.addMarker(new MarkerOptions().position(latLng).title(name).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_bus_marker)).anchor(0.5f, 0.5f).rotation(bearing).flat(true));
                         hashMapMarkerBus.put(name, markerName);
                         allBusMarker.add(markerName);
-                        oldlat = latitude;
-                        oldlong = longitude;
+                        oldLocation.put(dataSnapshot.getKey(), newLoc);
                     }
                 }
 
@@ -501,6 +506,7 @@ public class MainActivity extends AppCompatActivity
         mMap.setOnCameraChangeListener(this);
         allBusStopMarker = new ArrayList<Marker>();
         allBusMarker = new ArrayList<Marker>();
+        setUpBusStop();
     }
 
 
@@ -554,6 +560,14 @@ public class MainActivity extends AppCompatActivity
         markerPoints.add(latLng);
         if (markerPoints.size() == 1) {
             markerPoints.add(currentLocation);
+        }
+    }
+
+    private void setUpBusStop() {
+        if (WelcomeScreenActivity.instance.allBusStopInfomation != null) {
+            for (Map.Entry<String, BusStopInfomation> entry : WelcomeScreenActivity.instance.allBusStopInfomation.getAllBus().entrySet()) {
+                allBusStopMarker.add(mMap.addMarker(new MarkerOptions().position(entry.getValue().getLatLng()).icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_bus_stop))));
+            }
         }
     }
 
@@ -758,15 +772,15 @@ public class MainActivity extends AppCompatActivity
             drawingRote.drawingRemove();
         } else if (nameRoute[i] == "Nâu") {
             drawingRote.drawingBrown();
-        } else if (nameRoute[i] == "Xanh Bi?n") {
+        } else if (nameRoute[i] == "Xanh Biển") {
             drawingRote.drawingBlue();
-        } else if (nameRoute[i] == "??") {
+        } else if (nameRoute[i] == "Đỏ") {
             drawingRote.drawingRed();
         } else if (nameRoute[i] == "Xanh Lá") {
             drawingRote.drawingGreen();
         } else if (nameRoute[i] == "Vàng") {
             drawingRote.drawingYello();
-        } else if (nameRoute[i] == "H?ng") {
+        } else if (nameRoute[i] == "Hồng") {
             drawingRote.drawingPink();
         }
     }
@@ -854,7 +868,7 @@ public class MainActivity extends AppCompatActivity
                         loged();
                     } else {
                         progressDialog.dismiss();
-                        Toast.makeText(getApplicationContext(), "??ng nh?p th?t b?i", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
                     }
                 }
             });
@@ -867,27 +881,27 @@ public class MainActivity extends AppCompatActivity
         boolean cancel = false;
         View focusView = null;
         if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
-            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>M?t kh?u quá ng?n</font>"));
+            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>Mật khẩu quá ngắn</font>"));
             focusView = mPasswordViewRegister;
             cancel = true;
         }
 
         // Check for a valid email address.
         if (TextUtils.isEmpty(email)) {
-            mEmailViewRegister.setError(Html.fromHtml("<font color='red'>Vui lòng nh?p email</font>"));
+            mEmailViewRegister.setError(Html.fromHtml("<font color='red'>Vui lòng nhập email</font>"));
             focusView = mEmailViewRegister;
             cancel = true;
         } else if (!isEmailValid(email)) {
-            mEmailViewRegister.setError(Html.fromHtml("<font color='red'>Email không h?p l?</font>"));
+            mEmailViewRegister.setError(Html.fromHtml("<font color='red'>Email không hợp lệ</font>"));
             focusView = mEmailViewRegister;
             cancel = true;
         } else if (TextUtils.isEmpty(password)) {
-            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>Vui lòng nh?p m?t kh?u</font>"));
+            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>Vui lòng nhập mật khẩu</font>"));
             focusView = mPasswordViewRegister;
             cancel = true;
         } else if (!mConfirmPasswordViewRegister.getText().toString().equals(mPasswordViewRegister.getText().toString())) {
-            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>M?t kh?u không kh?p</font>"));
-            mConfirmPasswordViewRegister.setError(Html.fromHtml("<font color='red'>M?t kh?u không kh?p</font>"));
+            mPasswordViewRegister.setError(Html.fromHtml("<font color='red'>Mật khẩu không khớpp</font>"));
+            mConfirmPasswordViewRegister.setError(Html.fromHtml("<font color='red'>Mật khẩu không khớpp</font>"));
             focusView = mPasswordViewRegister;
             cancel = true;
         }
@@ -1062,6 +1076,7 @@ public class MainActivity extends AppCompatActivity
 //        Toast.makeText(this,
 //                "Could not connect to Google API Client: Error " + connectionResult.getErrorCode(),
 //                Toast.LENGTH_SHORT).show();
+
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 }

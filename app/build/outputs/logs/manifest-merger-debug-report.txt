@@ -1,0 +1,494 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-core-11.2.0.aar\b672b91874c9d25c909295695270fdd8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-places-11.2.0.aar\c7a6c3880b8ce098d40a26005e1ad067\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.0.aar\5d3f060bf64176ef329e191b392874a7\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-database:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-11.2.0.aar\54b72162234c949fa50d40e1a81903d8\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-auth:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.2.0.aar\14988f36af6e8ddf5e5e2532155e884e\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-storage:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.2.0.aar\10deea1ffe718baf8b5b036f0d8e6f71\AndroidManifest.xml:2:1-4:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\23fa0a349b2acaeb4bd8e0c589a348b2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\f5816e8de65556ced527f468c15bdd74\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d5c6bee9600a8668d687f257348e4a96\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.2.0.aar\fd2a7411ef033008fbb2f96bde39b99e\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.2.0.aar\56554bd7c8ae02225daca6e88e10f733\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.2.0.aar\36edb08d5a4501447dc3b7676dfaacae\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:1-68:12
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_LOCATION
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:19:5-66:19
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-core-11.2.0.aar\b672b91874c9d25c909295695270fdd8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-core-11.2.0.aar\b672b91874c9d25c909295695270fdd8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-places-11.2.0.aar\c7a6c3880b8ce098d40a26005e1ad067\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-places-11.2.0.aar\c7a6c3880b8ce098d40a26005e1ad067\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.0.aar\5d3f060bf64176ef329e191b392874a7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.0.aar\5d3f060bf64176ef329e191b392874a7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-auth:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.2.0.aar\14988f36af6e8ddf5e5e2532155e884e\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.2.0.aar\14988f36af6e8ddf5e5e2532155e884e\AndroidManifest.xml:19:5-20:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\23fa0a349b2acaeb4bd8e0c589a348b2\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\23fa0a349b2acaeb4bd8e0c589a348b2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d5c6bee9600a8668d687f257348e4a96\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d5c6bee9600a8668d687f257348e4a96\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.2.0.aar\56554bd7c8ae02225daca6e88e10f733\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.2.0.aar\56554bd7c8ae02225daca6e88e10f733\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:24:9-48
+	android:icon
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:26:9-40
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:20:9-32
+activity#eiu.example.tuann.bus.WelcomeScreenActivity
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:screenOrientation
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:29:13-49
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:28:13-50
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:34:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:45:9-47:55
+	android:value
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:47:13-52
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:46:13-58
+activity#eiu.example.tuann.bus.MainActivity
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:49:9-52:59
+	android:screenOrientation
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:51:13-49
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:50:13-41
+activity#eiu.example.tuann.bus.NearbyBusStopActivity
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:53:9-57:59
+	android:screenOrientation
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:55:13-67
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:54:13-50
+activity#eiu.example.tuann.bus.ReportActivity
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:label
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:60:13-58
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:59:13-43
+activity#eiu.example.tuann.bus.InformationMarkerActivity
+ADDED from E:\Bus\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:64:13-70
+	android:theme
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml:63:13-54
+uses-sdk
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\69ee1ede6731bf15df3efcf6efa9b004\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-core-11.2.0.aar\b672b91874c9d25c909295695270fdd8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-core-11.2.0.aar\b672b91874c9d25c909295695270fdd8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-places-11.2.0.aar\c7a6c3880b8ce098d40a26005e1ad067\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-places-11.2.0.aar\c7a6c3880b8ce098d40a26005e1ad067\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.0.aar\5d3f060bf64176ef329e191b392874a7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-location-11.2.0.aar\5d3f060bf64176ef329e191b392874a7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-11.2.0.aar\54b72162234c949fa50d40e1a81903d8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-11.2.0.aar\54b72162234c949fa50d40e1a81903d8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.2.0.aar\14988f36af6e8ddf5e5e2532155e884e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.2.0.aar\14988f36af6e8ddf5e5e2532155e884e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.2.0.aar\10deea1ffe718baf8b5b036f0d8e6f71\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.2.0.aar\10deea1ffe718baf8b5b036f0d8e6f71\AndroidManifest.xml:3:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\23fa0a349b2acaeb4bd8e0c589a348b2\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\23fa0a349b2acaeb4bd8e0c589a348b2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\f5816e8de65556ced527f468c15bdd74\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\f5816e8de65556ced527f468c15bdd74\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d5c6bee9600a8668d687f257348e4a96\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d5c6bee9600a8668d687f257348e4a96\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.2.0.aar\fd2a7411ef033008fbb2f96bde39b99e\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.2.0.aar\fd2a7411ef033008fbb2f96bde39b99e\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.2.0.aar\56554bd7c8ae02225daca6e88e10f733\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.2.0.aar\56554bd7c8ae02225daca6e88e10f733\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.2.0.aar\36edb08d5a4501447dc3b7676dfaacae\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.2.0.aar\36edb08d5a4501447dc3b7676dfaacae\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bus\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\9e082c58872771d72ba2857f67ba17e1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\642e155a9424172a2892b1242c87cdf7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\42715e21d26782b46270a0147fab1f6c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v13-26.0.1.aar\361bca949e1694b36ca1a30a0f5fde70\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\939504d4bc4305ec45306829f440c67a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\9904bf76f0bc496d03c58bed4a6de75c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\bbc6a945bb90164e3a45d011ebf4dc7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\4512be4075d92d9fc3e36edc94723ae9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\95190c9f8d8418a924623d0903ec8824\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\fbba90acc9672a72ed99cc19951a52d5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\cc882ef8cf22412277be36af9489eba7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\013c8c44e72bed1fc6b406e266a84bc5\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.1] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\eedfde38ad8386c480a0e59ed8db9b78\AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.2.0.aar\de8d53be49162ffac672669e9a13421c\AndroidManifest.xml:21:52-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.2.0.aar\d65335af997955e224ab3cfb38d5f7e8\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.2.0.aar\6842153368f5b8dd8e7fb0963eaa9c44\AndroidManifest.xml:33:16-90
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-base-11.2.0.aar\8089d5a8cac50814246cfc2b4266ce51\AndroidManifest.xml:19:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:17-71
+permission#eiu.example.tuann.bus.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:26:22-76
+uses-permission#eiu.example.tuann.bus.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:31:13-34:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+eiu.example.tuann.bus
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:33:27-58
+category#eiu.example.tuann.bus
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.2.0.aar\9962004a70f91c32f8cf48442254a372\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\firebase-common-11.2.0.aar\ce4097947fcf9310e2c487550e405216\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.2.0] C:\Users\tuann.DESKTOP-U81D955\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.2.0.aar\19492ed508b4b4fae795ce045f0084c9\AndroidManifest.xml:20:20-65

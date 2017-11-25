@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="eiu.example.tuann.bus.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <include layout="@layout/content_navigation_drawer" />
+
+        <FrameLayout
+            android:id="@+id/main_layout_maps"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/direction_layout_maps"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/information_direction_layout_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/animation_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/sendToFireBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"></FrameLayout>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

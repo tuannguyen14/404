@@ -40,16 +40,16 @@
         "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9e082c58872771d72ba2857f67ba17e1\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_navigation_drawer_register.xml.flat",
-        "source": "E:\\404\\404\\app\\src\\main\\res\\layout\\nav_header_navigation_drawer_register.xml"
+        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_schedule.png.flat",
+        "source": "E:\\404\\404\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_schedule.png"
     },
     {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_search.png.flat",
         "source": "E:\\404\\404\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_search.png"
     },
     {
-        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_schedule.png.flat",
-        "source": "E:\\404\\404\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_schedule.png"
+        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_navigation_drawer_register.xml.flat",
+        "source": "E:\\404\\404\\app\\src\\main\\res\\layout\\nav_header_navigation_drawer_register.xml"
     },
     {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_clear.png.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9e082c58872771d72ba2857f67ba17e1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9e082c58872771d72ba2857f67ba17e1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9e082c58872771d72ba2857f67ba17e1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\9e082c58872771d72ba2857f67ba17e1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -100,12 +100,12 @@
         "source": "E:\\404\\404\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_current_location_black.png"
     },
     {
-        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.0.aar\\8089d5a8cac50814246cfc2b4266ce51\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_start_and_finish.png.flat",
         "source": "E:\\404\\404\\app\\src\\main\\res\\drawable-mdpi\\ic_start_and_finish.png"
+    },
+    {
+        "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\tuann.DESKTOP-U81D955\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.2.0.aar\\8089d5a8cac50814246cfc2b4266ce51\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "E:\\404\\404\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_marker.png.flat",

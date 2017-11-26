@@ -17,15 +17,6 @@
         android:foregroundGravity="center"
         android:scaleType="fitXY" />
 
-    <ImageView
-        android:layout_width="170dp"
-        android:layout_height="300dp"
-        android:layout_gravity="top|center"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/logo_footer"
-        android:gravity="center"
-        android:id="@+id/logo"/>
-
     <com.wang.avi.AVLoadingIndicatorView
         android:id="@+id/avi"
         style="@style/AVLoadingIndicatorView.Large"

@@ -1,5 +1,7 @@
 package eiu.example.tuann.bus;
 
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -17,7 +19,10 @@ import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.model.LatLng;
 import com.wang.avi.AVLoadingIndicatorView;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -78,8 +83,21 @@ public class NearbyBusStopActivity extends AppCompatActivity {
             Location.distanceBetween(StartP.latitude, StartP.longitude, latitude, longitude, result);
             LatLng latLng = new LatLng(latitude, longitude);
             treeClickNearBy.put(result[0], entry.getKey() + " " + entry.getValue());
-            treeMap.put(result[0], WelcomeScreenActivity.instance.allBusStopInfomation.getAllBus().get(latLng.toString()).getAddress());
+            Geocoder geocoder = new Geocoder(NearbyBusStopActivity.this, Locale.getDefault());
+            List<Address> addresses = null;
+            try {
+                addresses = geocoder.getFromLocation(latitude, longitude, 1);
+                Address address = addresses.get(0);
+                String addressS = address.getAddressLine(0);
+                treeMap.put(result[0], addressS);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+//            if (WelcomeScreenActivity.instance.allBusStopInfomation.getAllBus().containsKey(latLng.toString())) {
+//                treeMap.put(result[0], WelcomeScreenActivity.instance.allBusStopInfomation.getAllBus().get(latLng.toString()).getAddress());
+//            }
+
         for (Map.Entry<Float, String> entry : treeMap.entrySet()) {
             Float distanceDouble = entry.getKey();
             distanceDouble /= 1000;
